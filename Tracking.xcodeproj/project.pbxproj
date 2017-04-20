@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		82DE626C1E8E709700AE6527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DE626B1E8E709700AE6527 /* main.m */; };
 		82DE626F1E8E709700AE6527 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DE626E1E8E709700AE6527 /* AppDelegate.m */; };
-		82DE62721E8E709700AE6527 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DE62711E8E709700AE6527 /* ViewController.m */; };
 		82DE62751E8E709700AE6527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DE62731E8E709700AE6527 /* Main.storyboard */; };
 		82DE62781E8E709700AE6527 /* Tracking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82DE62761E8E709700AE6527 /* Tracking.xcdatamodeld */; };
 		82DE627A1E8E709700AE6527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DE62791E8E709700AE6527 /* Assets.xcassets */; };
 		82DE627D1E8E709700AE6527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DE627B1E8E709700AE6527 /* LaunchScreen.storyboard */; };
 		82DE62881E8E709700AE6527 /* TrackingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DE62871E8E709700AE6527 /* TrackingTests.m */; };
 		82DE62931E8E709700AE6527 /* TrackingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DE62921E8E709700AE6527 /* TrackingUITests.m */; };
+		82DE62A21E8E71A500AE6527 /* DailyActivitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DE62A11E8E71A500AE6527 /* DailyActivitiesTableViewController.m */; };
+		82FE95EA1E95329400571744 /* ActivityPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE95E91E95329400571744 /* ActivityPageViewController.m */; };
+		82FE95F01E9536B400571744 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE95EF1E9536B400571744 /* SettingsViewController.m */; };
+		82FE95F31E9542E000571744 /* ChildrenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE95F21E9542E000571744 /* ChildrenTableViewController.m */; };
+		82FE95F61E95598900571744 /* ChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE95F51E95598900571744 /* ChildTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +44,6 @@
 		82DE626B1E8E709700AE6527 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82DE626D1E8E709700AE6527 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82DE626E1E8E709700AE6527 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		82DE62701E8E709700AE6527 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		82DE62711E8E709700AE6527 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		82DE62741E8E709700AE6527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82DE62771E8E709700AE6527 /* Tracking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tracking.xcdatamodel; sourceTree = "<group>"; };
 		82DE62791E8E709700AE6527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,16 @@
 		82DE628E1E8E709700AE6527 /* TrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DE62921E8E709700AE6527 /* TrackingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingUITests.m; sourceTree = "<group>"; };
 		82DE62941E8E709700AE6527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DE62A01E8E71A500AE6527 /* DailyActivitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DailyActivitiesTableViewController.h; path = ../DailyActivitiesTableViewController.h; sourceTree = "<group>"; };
+		82DE62A11E8E71A500AE6527 /* DailyActivitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DailyActivitiesTableViewController.m; path = ../DailyActivitiesTableViewController.m; sourceTree = "<group>"; };
+		82FE95E81E95329400571744 /* ActivityPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityPageViewController.h; sourceTree = "<group>"; };
+		82FE95E91E95329400571744 /* ActivityPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityPageViewController.m; sourceTree = "<group>"; };
+		82FE95EE1E9536B400571744 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		82FE95EF1E9536B400571744 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		82FE95F11E9542E000571744 /* ChildrenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildrenTableViewController.h; sourceTree = "<group>"; };
+		82FE95F21E9542E000571744 /* ChildrenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildrenTableViewController.m; sourceTree = "<group>"; };
+		82FE95F41E95598900571744 /* ChildTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildTableViewCell.h; sourceTree = "<group>"; };
+		82FE95F51E95598900571744 /* ChildTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +115,19 @@
 		82DE62691E8E709700AE6527 /* Tracking */ = {
 			isa = PBXGroup;
 			children = (
+				82DE62A01E8E71A500AE6527 /* DailyActivitiesTableViewController.h */,
+				82DE62A11E8E71A500AE6527 /* DailyActivitiesTableViewController.m */,
 				82DE626D1E8E709700AE6527 /* AppDelegate.h */,
 				82DE626E1E8E709700AE6527 /* AppDelegate.m */,
-				82DE62701E8E709700AE6527 /* ViewController.h */,
-				82DE62711E8E709700AE6527 /* ViewController.m */,
 				82DE62731E8E709700AE6527 /* Main.storyboard */,
+				82FE95F41E95598900571744 /* ChildTableViewCell.h */,
+				82FE95F51E95598900571744 /* ChildTableViewCell.m */,
+				82FE95F11E9542E000571744 /* ChildrenTableViewController.h */,
+				82FE95F21E9542E000571744 /* ChildrenTableViewController.m */,
+				82FE95EE1E9536B400571744 /* SettingsViewController.h */,
+				82FE95EF1E9536B400571744 /* SettingsViewController.m */,
+				82FE95E81E95329400571744 /* ActivityPageViewController.h */,
+				82FE95E91E95329400571744 /* ActivityPageViewController.m */,
 				82DE62791E8E709700AE6527 /* Assets.xcassets */,
 				82DE627B1E8E709700AE6527 /* LaunchScreen.storyboard */,
 				82DE627E1E8E709700AE6527 /* Info.plist */,
@@ -277,9 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				82DE62781E8E709700AE6527 /* Tracking.xcdatamodeld in Sources */,
-				82DE62721E8E709700AE6527 /* ViewController.m in Sources */,
 				82DE626F1E8E709700AE6527 /* AppDelegate.m in Sources */,
+				82FE95EA1E95329400571744 /* ActivityPageViewController.m in Sources */,
+				82FE95F31E9542E000571744 /* ChildrenTableViewController.m in Sources */,
+				82DE62A21E8E71A500AE6527 /* DailyActivitiesTableViewController.m in Sources */,
 				82DE626C1E8E709700AE6527 /* main.m in Sources */,
+				82FE95F61E95598900571744 /* ChildTableViewCell.m in Sources */,
+				82FE95F01E9536B400571744 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +535,7 @@
 				82DE62991E8E709700AE6527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82DE629A1E8E709700AE6527 /* Build configuration list for PBXNativeTarget "TrackingTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +544,7 @@
 				82DE629C1E8E709700AE6527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82DE629D1E8E709700AE6527 /* Build configuration list for PBXNativeTarget "TrackingUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +553,7 @@
 				82DE629F1E8E709700AE6527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
